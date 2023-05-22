@@ -1,0 +1,15 @@
+C:\Users\joao\Documents\pathway\semester1\OOP\cse210-projects\sandbox\Sandbox\bin\Debug\net7.0\Sandbox.exe
+C:\Users\joao\Documents\pathway\semester1\OOP\cse210-projects\sandbox\Sandbox\bin\Debug\net7.0\Sandbox.deps.json
+C:\Users\joao\Documents\pathway\semester1\OOP\cse210-projects\sandbox\Sandbox\bin\Debug\net7.0\Sandbox.runtimeconfig.json
+C:\Users\joao\Documents\pathway\semester1\OOP\cse210-projects\sandbox\Sandbox\bin\Debug\net7.0\Sandbox.dll
+C:\Users\joao\Documents\pathway\semester1\OOP\cse210-projects\sandbox\Sandbox\bin\Debug\net7.0\Sandbox.pdb
+C:\Users\joao\Documents\pathway\semester1\OOP\cse210-projects\sandbox\Sandbox\obj\Debug\net7.0\Sandbox.csproj.AssemblyReference.cache
+C:\Users\joao\Documents\pathway\semester1\OOP\cse210-projects\sandbox\Sandbox\obj\Debug\net7.0\Sandbox.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\joao\Documents\pathway\semester1\OOP\cse210-projects\sandbox\Sandbox\obj\Debug\net7.0\Sandbox.AssemblyInfoInputs.cache
+C:\Users\joao\Documents\pathway\semester1\OOP\cse210-projects\sandbox\Sandbox\obj\Debug\net7.0\Sandbox.AssemblyInfo.cs
+C:\Users\joao\Documents\pathway\semester1\OOP\cse210-projects\sandbox\Sandbox\obj\Debug\net7.0\Sandbox.csproj.CoreCompileInputs.cache
+C:\Users\joao\Documents\pathway\semester1\OOP\cse210-projects\sandbox\Sandbox\obj\Debug\net7.0\Sandbox.dll
+C:\Users\joao\Documents\pathway\semester1\OOP\cse210-projects\sandbox\Sandbox\obj\Debug\net7.0\refint\Sandbox.dll
+C:\Users\joao\Documents\pathway\semester1\OOP\cse210-projects\sandbox\Sandbox\obj\Debug\net7.0\Sandbox.pdb
+C:\Users\joao\Documents\pathway\semester1\OOP\cse210-projects\sandbox\Sandbox\obj\Debug\net7.0\Sandbox.genruntimeconfig.cache
+C:\Users\joao\Documents\pathway\semester1\OOP\cse210-projects\sandbox\Sandbox\obj\Debug\net7.0\ref\Sandbox.dll

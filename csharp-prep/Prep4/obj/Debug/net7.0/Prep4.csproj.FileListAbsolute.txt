@@ -1,0 +1,15 @@
+C:\Users\joao\Documents\pathway\semester1\OOP\cse210-projects\csharp-prep\Prep4\bin\Debug\net7.0\Prep4.exe
+C:\Users\joao\Documents\pathway\semester1\OOP\cse210-projects\csharp-prep\Prep4\bin\Debug\net7.0\Prep4.deps.json
+C:\Users\joao\Documents\pathway\semester1\OOP\cse210-projects\csharp-prep\Prep4\bin\Debug\net7.0\Prep4.runtimeconfig.json
+C:\Users\joao\Documents\pathway\semester1\OOP\cse210-projects\csharp-prep\Prep4\bin\Debug\net7.0\Prep4.dll
+C:\Users\joao\Documents\pathway\semester1\OOP\cse210-projects\csharp-prep\Prep4\bin\Debug\net7.0\Prep4.pdb
+C:\Users\joao\Documents\pathway\semester1\OOP\cse210-projects\csharp-prep\Prep4\obj\Debug\net7.0\Prep4.csproj.AssemblyReference.cache
+C:\Users\joao\Documents\pathway\semester1\OOP\cse210-projects\csharp-prep\Prep4\obj\Debug\net7.0\Prep4.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\joao\Documents\pathway\semester1\OOP\cse210-projects\csharp-prep\Prep4\obj\Debug\net7.0\Prep4.AssemblyInfoInputs.cache
+C:\Users\joao\Documents\pathway\semester1\OOP\cse210-projects\csharp-prep\Prep4\obj\Debug\net7.0\Prep4.AssemblyInfo.cs
+C:\Users\joao\Documents\pathway\semester1\OOP\cse210-projects\csharp-prep\Prep4\obj\Debug\net7.0\Prep4.csproj.CoreCompileInputs.cache
+C:\Users\joao\Documents\pathway\semester1\OOP\cse210-projects\csharp-prep\Prep4\obj\Debug\net7.0\Prep4.dll
+C:\Users\joao\Documents\pathway\semester1\OOP\cse210-projects\csharp-prep\Prep4\obj\Debug\net7.0\refint\Prep4.dll
+C:\Users\joao\Documents\pathway\semester1\OOP\cse210-projects\csharp-prep\Prep4\obj\Debug\net7.0\Prep4.pdb
+C:\Users\joao\Documents\pathway\semester1\OOP\cse210-projects\csharp-prep\Prep4\obj\Debug\net7.0\Prep4.genruntimeconfig.cache
+C:\Users\joao\Documents\pathway\semester1\OOP\cse210-projects\csharp-prep\Prep4\obj\Debug\net7.0\ref\Prep4.dll
