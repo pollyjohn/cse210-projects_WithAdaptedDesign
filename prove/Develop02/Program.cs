@@ -1,63 +1,94 @@
 using System;
-using System.IO;
 using System.Collections.Generic;
-class Program
+using System.IO;
+
+
+public class Program
 {
-    static void Main(string[] args)
-    {   
-        List<string> entriesW = new List<string>();
-        
-        string text = "";
-        string dateText = "";   
+
+    public static Journal journal;
+
+    public static void Main(string[] args)
+    {
+        journal = new Journal();
         string choice;
-        
-        
-        string[] lines = null;
-       DateTime now = DateTime.Now;
-       dateText = now.ToShortDateString();
-       entriesW.Add(dateText);
-       do{ do
+
+        do
         {
-            
-            Prompts question = new Prompts();
-            Prompts prompts = new Prompts();
-            Write write = new Write();
-            choice = prompts.prompt();
-            if(choice == "1")
+            DisplayMenu();
+            choice = Console.ReadLine();
+
+            switch (choice)
             {
-            question.question();
-            text = write.write();
-            entriesW.Add(text);
+                case "1":
+                    WriteNewEntry();
+                    break;
+                case "2":
+                    SaveJournalToFile();
+                    break;
+                case "3":
+                    LoadJournalFromFile();
+                    break;
+                case "4":
+                    DisplayJournal();
+                    break;
+                case "5":
+                    Console.WriteLine("Don't forget to write again tomorrow!");
+                    break;
+                default:
+                    Console.WriteLine("Invalid choice. Please try again.");
+                    break;
             }
-        }while (choice == "1");
-        
-        if (choice == "2")
-        {
-            Save save = new Save();
-            save.save(entriesW);
-        }
-        else if (choice == "3")
-        {
-            Read read = new Read();
-            
-            lines = read.read(entriesW);
-        }
-        else if (choice == "4")
-        {   
-        Display display = new Display();
-        display.display(lines);}
-    
-    } while (choice != "5");    
-    
+
+            Console.WriteLine();
+        } while (choice != "5");
+    }
+
+    private static void DisplayMenu()
+    {
+        Console.WriteLine("Journal");
+        Console.WriteLine("1. Write a new entry");
+        Console.WriteLine("2. Save the journal to a file");
+        Console.WriteLine("3. Load the journal from a file");
+        Console.WriteLine("4. Display the journal");
+        Console.WriteLine("5. Quit");
+        Console.Write("Enter your choice: ");
+    }
+
+    private static void WriteNewEntry()
+    {
+        Prompts prompts = new Prompts();
+        string prompt = prompts.question();
+        Console.WriteLine(prompt);
+        string response = Console.ReadLine();
+        string date = DateTime.Now.ToShortDateString();
+        journal.AddEntry(prompt, response, date);
+        Console.WriteLine("Entry added!");
+    }
+
+    private static void SaveJournalToFile()
+    {
+        Console.Write("Enter the file name: ");
+        string fileName = Console.ReadLine();
+        journal.SaveToFile(fileName);
+        Console.WriteLine("Journal saved to file.");
+    }
+
+    private static void LoadJournalFromFile()
+    {
+        Console.Write("Enter the file name: ");
+        string fileName = Console.ReadLine();
+        journal.LoadFromFile(fileName);
+        Console.WriteLine("Journal loaded from file.");
+    }
+
+    private static void DisplayJournal()
+    {
+        journal.DisplayEntries();
+    }
 }
-}
-/* Prompts prompt = new Prompts(); 
-        prompt.question();
-        Write write = new Write();
-        (string text, string dateText) = write.write();
-        Save save = new Save();
-        save.save(text, dateText);
-        Read read = new Read();
-        string[] myFile = read.read();
-        Display display = new Display();
-        display.display(myFile);*/
+
+
+
+
+

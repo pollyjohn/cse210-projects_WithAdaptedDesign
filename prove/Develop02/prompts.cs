@@ -20,10 +20,10 @@ public class Prompts
         string choice = Console.ReadLine();
         return choice;
     }
-     public void question()
+     public string question()
             {
                 Random randomGenerator = new Random();
                 int option = randomGenerator.Next(0, questions.Count); 
-                Console.WriteLine($"{questions[option]}");
+                return questions[option];
             }
 }

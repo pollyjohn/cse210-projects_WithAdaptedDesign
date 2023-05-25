@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\joao\\Documents\\pathway\\semester1\\OOP\\cse210-projects\\prove\\Develop02\\Develop02.csproj": {}
+    "C:\\Users\\joao\\Documents\\pathway\\semester1\\OOP\\cse210-projects_WithAdaptedDesign\\prove\\Develop02\\Develop02.csproj": {}
   },
   "projects": {
-    "C:\\Users\\joao\\Documents\\pathway\\semester1\\OOP\\cse210-projects\\prove\\Develop02\\Develop02.csproj": {
+    "C:\\Users\\joao\\Documents\\pathway\\semester1\\OOP\\cse210-projects_WithAdaptedDesign\\prove\\Develop02\\Develop02.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\joao\\Documents\\pathway\\semester1\\OOP\\cse210-projects\\prove\\Develop02\\Develop02.csproj",
+        "projectUniqueName": "C:\\Users\\joao\\Documents\\pathway\\semester1\\OOP\\cse210-projects_WithAdaptedDesign\\prove\\Develop02\\Develop02.csproj",
         "projectName": "Develop02",
-        "projectPath": "C:\\Users\\joao\\Documents\\pathway\\semester1\\OOP\\cse210-projects\\prove\\Develop02\\Develop02.csproj",
+        "projectPath": "C:\\Users\\joao\\Documents\\pathway\\semester1\\OOP\\cse210-projects_WithAdaptedDesign\\prove\\Develop02\\Develop02.csproj",
         "packagesPath": "C:\\Users\\joao\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\joao\\Documents\\pathway\\semester1\\OOP\\cse210-projects\\prove\\Develop02\\obj\\",
+        "outputPath": "C:\\Users\\joao\\Documents\\pathway\\semester1\\OOP\\cse210-projects_WithAdaptedDesign\\prove\\Develop02\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\joao\\AppData\\Roaming\\NuGet\\NuGet.Config"

@@ -1,7 +1,6 @@
-        public class Entry{
-            public List<string> entry()
-            {
-                List<string> entries = new List<string>();
-                return entries; 
-            }
-                            }
+public class Entry
+{
+    public string Prompt { get; set; }
+    public string Response { get; set; }
+    public string Date { get; set; }
+}
